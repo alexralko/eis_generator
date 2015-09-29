@@ -1,0 +1,81 @@
+{
+    "common" : {
+
+    },
+
+    "customer" : {
+
+        "template" : "template/customer.tmpl.xml",
+
+        "start" : 660001,
+        "count" : 10,
+        "producerCd" : "RAN",
+
+        "birthdate" : "1980-05-21T00:00:00",
+
+        "genderCd" : [
+            "male", "female"
+        ],
+
+        "firstNames" : [
+            "Minna", "Anna", "Kersta", "Isabella", "Janina", "Peter", "Janis", "John", "Michael", "Matheus"
+        ],
+
+        "lastNames" : [
+            "Newton", "Einstein", "Brown", "Bor", "Hopkins", "Galileo", "Pascal", "Roentgen", "Bohr", "Sakharov"
+        ],
+
+        "titleCd" : [
+            "MR", "MRS", "MS", "DR", "MIS", "OTH"
+        ],
+
+        "legalNames" : [
+            "Toyota", "Honda", "Canon", "Sony", "Panasonic", "Nissan", "Lexus", "Toshiba", "Nikon", "Fujitsu"
+        ],
+
+        "streetNames" : [
+            "Abbey Road ", "Bleeker Street ", "Boulevard Saint-Germain ", "Broadway ", "Champs-Elysees ", "Downing Street ", "Friedrichstrasse ", "Khyber Pass ", "Madison Avenue ", "Wall Street "
+        ],
+
+        "areaNames" : [
+            "behind the corner ", "besides of big tree ", "in forest ", "cellar ", "attic ", "tower ", "bunker ", "under water ", "depth "
+        ],
+
+        "placeNames" : [
+            "unit ", "room ", "appartment "
+        ],
+
+        "cityNames" : [
+            "Riga", "Vilnius", "St.Petersburg", "Minsk", "Wuxi", "Niznij Novgorod", "San Francisco", "Christchurch", "Quebeck", "Lielvarde"
+        ],
+
+        "suburbNames" : [
+            "Antakalnis", "Kengarags", "Floral Park", "Bolderaja", "Lazdynai", "Long Beach", "Tappan", "Vecriiga", "Purvciems", "Yonkers"
+        ],
+
+        "countryCodes" : [
+            "NZ", "LV", "LT", "BY", "RU"
+        ]
+
+    },
+
+    "policy" : {
+
+        "template" : "template/policy.tmpl.xml",
+
+        "start" : 220001,
+        "count" : 10,
+
+        "customerNumber" : 10001000,
+
+        "policyNumberPrefix" : "GEN_",
+        "effectiveDate" : "2014-04-25T00:00:00",
+        "expirationDate" : "2015-04-25T00:00:00",
+        "producerCd" : "RAN",
+        "productCd" : "AMO",
+        "dueDay" : "27",
+        "enableRecurringPayments" : true,
+        "paymentPlan" : "annual"
+    }
+
+}
