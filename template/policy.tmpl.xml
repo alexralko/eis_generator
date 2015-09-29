@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns="http://www.exigeninsurance.com/eis/data/product/AMO/1.0" name="AMO" version="1.0">
+   <AMOAutoPolicy state="Created">
+      <contractTermTypeCd>AN</contractTermTypeCd>
+      <coverageTypeCd>FULL</coverageTypeCd>
+      <customerNumber>{{customer_number}}</customerNumber>
+      <effective>{{effective_date}}</effective>
+      <expiration>{{expiration_date}}</expiration>
+      <imported>CONV</imported>
+      <manualRenewInd>true</manualRenewInd>
+      <!--policyNumber>1271118M00</policyNumber-->
+      <policyNumber>{{policy_number}}</policyNumber>
+      <producerCd>{{producer_cd}}</producerCd>
+      <productCd>{{product_cd}}</productCd>
+      <renewableInd>true</renewableInd>
+      <countryCd>NZ</countryCd>
+      <currencyCd>NZD</currencyCd>
+      
+      <AMODriver state="Created">
+         <birthDate>1981-01-28T00:00:00</birthDate>
+         <comboDisplayValue>Other</comboDisplayValue>
+         <deductibleAmount>1000</deductibleAmount>
+         <driverTypeCd>M</driverTypeCd>
+         <firstName>GUNTA</firstName>
+         <genderCd>female</genderCd>
+         <lastName>SAULE</lastName>
+         <licenseInd>false</licenseInd>
+         <mainDriver25OrOlderInd>1</mainDriver25OrOlderInd>
+         <mainDriverInd>1</mainDriverInd>
+         <totalDeductibleAmount>1000</totalDeductibleAmount>
+         
+         <AMODriverRatingInfo state="Created">
+            <claimsFreeYears>3</claimsFreeYears>
+            <noClaimBonus>0.5</noClaimBonus>
+            <u25CoverInd>TRUE</u25CoverInd>
+            <u25SelectedInd>1</u25SelectedInd>
+         </AMODriverRatingInfo>
+      </AMODriver>
+
+      <AMODriver state="Created">
+         <birthDate>1991-01-28T00:00:00</birthDate>
+         <comboDisplayValue>Other</comboDisplayValue>
+         <deductibleAmount>1000</deductibleAmount>
+         <driverTypeCd>N</driverTypeCd>
+         <firstName>GUNTA</firstName>
+         <genderCd>female</genderCd>
+         <lastName>SAULE</lastName>
+         <licenseInd>false</licenseInd>
+         <mainDriver25OrOlderInd>1</mainDriver25OrOlderInd>
+         <mainDriverInd>1</mainDriverInd>
+         <totalDeductibleAmount>1000</totalDeductibleAmount>
+         
+         <AMODriverRatingInfo state="Created">
+            <claimsFreeYears>3</claimsFreeYears>
+            <noClaimBonus>0.5</noClaimBonus>
+            <u25CoverInd>FALSE</u25CoverInd>
+            <u25SelectedInd>0</u25SelectedInd>
+         </AMODriverRatingInfo>
+      </AMODriver>
+      
+      <AMOOffence state="Created">
+         <excessSpeed>1525</excessSpeed>
+         <offenceCd>SPEED</offenceCd>
+         <offenceDetails>SPEED was 55 in the limit of 25</offenceDetails>
+         <otherOffence>Punched peace officer</otherOffence>
+         <otherSubjectInvolved>Lauks ielikts</otherSubjectInvolved>
+         <subjectInvolved>Reinis Cimdins</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>2007</year>
+      </AMOOffence>
+      
+      <AMOOffence state="Created">
+         <excessSpeed>1525</excessSpeed>
+         <offenceCd>SPEED</offenceCd>
+         <offenceDetails>SPEED was 55 in the limit of 25</offenceDetails>
+         <otherOffence>Punched peace officer</otherOffence>
+         <subjectInvolved>Ruta Cimdina</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>2007</year>
+      </AMOOffence>
+      
+      <AMICriminalOffence state="Created">
+         <offence>DCS</offence>
+         <otherOffence>Other Offence</otherOffence>
+         <otherSubjectInvolved>Lauks ielikts</otherSubjectInvolved>
+         <penalty>500</penalty>
+         <subjectInvolved>Unknown</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>1930</year>
+      </AMICriminalOffence>
+      
+      <AMIDeclinature state="Created">
+         <insurerCd>068</insurerCd>
+         <insurerName>Other Insurer Name</insurerName>
+         <refusalReason>unknown</refusalReason>
+         <subjectInvolved>unknown</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>1930</year>
+      </AMIDeclinature>
+      
+      <AMILossInfo state="Created">
+         <assetOwner>Asset Owner added</assetOwner>
+         <costOfLoss>7</costOfLoss>
+         <insurerCd>068</insurerCd>
+         <insurerName>Unknown</insurerName>
+         <lossDescription>M0743354 4/00 &amp; 1 X GLASS</lossDescription>
+         <lossTypeCd>FIRE</lossTypeCd>
+         <subjectInvolved>Unknown</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>1930</year>
+      </AMILossInfo>
+      
+      <AMODeclinedClaim state="Created">
+         <assetOwner>Asset Owner added</assetOwner>
+         <costOfLoss>1</costOfLoss>
+         <declinatureReasonCd>FRAUD</declinatureReasonCd>
+         <insurerCd>068</insurerCd>
+         <insurerName>Other</insurerName>
+         <lossDescription>komentars</lossDescription>
+         <lossTypeCd>OTH</lossTypeCd>
+         <otherDeclinatureReason>Added manually: Other FRAUD</otherDeclinatureReason>
+         <otherLossType>unknown</otherLossType>
+         <subjectInvolved>Other</subjectInvolved>
+         <subjectInvolvedCd>Other</subjectInvolvedCd>
+         <year>2001</year>
+      </AMODeclinedClaim>
+      
+      <AMOPolicyAdditionalInfo state="Created">
+         <amBestStatementInd>true</amBestStatementInd>
+         <choseCarrierReasonCd>AR</choseCarrierReasonCd>
+         <criminalOffenceInd>true</criminalOffenceInd>
+         <declinatureInd>true</declinatureInd>
+         <declinedClaimInd>true</declinedClaimInd>
+         <offenceInd>true</offenceInd>
+         <priorInsuranceInd>true</priorInsuranceInd>
+         <priorLossInd>true</priorLossInd>
+         <privacyDeclarationInd>true</privacyDeclarationInd>
+         <reasonForContactCd>IUA</reasonForContactCd>
+      </AMOPolicyAdditionalInfo>
+      
+      <AMIMarketing state="Created">
+         <campaignCd>NA</campaignCd>
+         <channelCd>PRINT</channelCd>
+         <otherChannel/>
+         </AMIMarketing>
+         
+         <AMIOtherOrPriorPolicyComponent state="Created">
+            <insurerCd>068</insurerCd>
+            <insurerName>AMI -15YRS</insurerName>
+            <originalInceptionDt>1995-06-07T00:00:00</originalInceptionDt>
+            <policyExpDate>1995-07-10T00:00:00</policyExpDate>
+            <policyNumber>G000000100</policyNumber>
+            <productCd>motor</productCd>
+            <subjectInvolved>Unknown</subjectInvolved>
+            <subjectInvolvedCd>Other</subjectInvolvedCd>
+         </AMIOtherOrPriorPolicyComponent>
+         
+         <AMOBillingInfo state="Created">
+            <billingAccountName>METODE_BANKA_4</billingAccountName>
+            <dueDay>{{due_day}}</dueDay>
+            <enableRecurringPayments>{{enable_recurring_payments}}</enableRecurringPayments>
+            <!--paymentDetailsBankAccount state="Created">
+               <accountNumber>11111</accountNumber>
+               <bankBranchCd>Bankas branch cd</bankBranchCd>
+               <bankBranchNo>Nr555</bankBranchNo>
+               <bankName>Bankas nosaukums</bankName>
+               <eftSuffix>qwe</eftSuffix>
+               <firstName>SIGITA</firstName>
+               <lastName>EGLE</lastName>
+               <middleName>MISINA</middleName>
+               <titleCd>MIS</titleCd>
+            </paymentDetailsBankAccount-->
+            <paymentDetailsCreditCard state="Created">
+               <expirationDate>2020-03-31T00:00:00</expirationDate>
+               <fullName>a i</fullName>
+               <number>4111111111111111</number>
+               <profileId>kreditkarte</profileId>
+               <type>VISA</type>
+            </paymentDetailsCreditCard>
+            
+            <paymentPlan>{{payment_plan}}</paymentPlan>
+            <!--paymentPlan>annual</paymentPlan-->
+            <transferredBalance>0</transferredBalance>
+         </AMOBillingInfo>
+         
+         <AMILossInfo state="Created">
+            <costOfLoss>7</costOfLoss>
+            <insurerCd>068</insurerCd>
+            <insurerName>Unknown</insurerName>
+            <lossDescription>M0743354 4/00 &amp; 1 X GLASS</lossDescription>
+            <lossTypeCd>FIRE</lossTypeCd>
+            <subjectInvolved>Unknown</subjectInvolved>
+            <subjectInvolvedCd>Other</subjectInvolvedCd>
+            <year>1930</year>
+         </AMILossInfo>
+         
+         <AMOVehicle state="Created">
+            <accessoryInd>false</accessoryInd>
+            <additionalInterestInd>false</additionalInterestInd>
+            <badge>1234</badge>
+            <driveTypeCd>FWD</driveTypeCd>
+            <engineSizeDesc>1.80</engineSizeDesc>
+            <fuelTypeCd>D</fuelTypeCd>
+            <leasedVehInd>false</leasedVehInd>
+            <manufacturer>Opel</manufacturer>
+            <model>Astra</model>
+            <modelYear>2000</modelYear>
+            <modificationInd>true</modificationInd>
+            <notInDatabaseInd>true</notInDatabaseInd>
+            <numberOfSeats>4</numberOfSeats>
+            <numOfDoors>5</numOfDoors>
+            <otherCommercialUse/>
+               <plateNumberExistsCd>TRUE</plateNumberExistsCd>
+               <ratingTerritoryCd>CMB</ratingTerritoryCd>
+               <registrationNo>BD5962</registrationNo>
+               <requiresLowVolCertificationsInd>TRUE</requiresLowVolCertificationsInd>
+               <riskGroup>4</riskGroup>
+               <totalAccessoriesAmt>0.00</totalAccessoriesAmt>
+               <transmissionTypeCd>AUTO</transmissionTypeCd>
+               <turboedInd>false</turboedInd>
+               <usedForMotorsportRacingInd>false</usedForMotorsportRacingInd>
+               <vehBodyTypeCd>HCB</vehBodyTypeCd>
+               <vehGrossWeigth>1.01</vehGrossWeigth>
+               <vehOwnerInd>true</vehOwnerInd>
+               <vehRatingBodyTypeCd>M</vehRatingBodyTypeCd>
+               <vehTypeCd>CAR</vehTypeCd>
+               
+               <AMOCoverQuestionnaire state="Created">
+                  <accidentalDeathCoverInd>FALSE</accidentalDeathCoverInd>
+                  <breakdownAssistanceInd>TRUE</breakdownAssistanceInd>
+		            <glassCoverInd>TRUE</glassCoverInd>
+                  <glassExcessBuyoutInd>FALSE</glassExcessBuyoutInd>
+                  <medicalExpensesInd>FALSE</medicalExpensesInd>
+                  <multiPolicyDiscount>MSD2</multiPolicyDiscount>
+                  <staffDiscountCd>NONE</staffDiscountCd>
+               </AMOCoverQuestionnaire>
+               
+               <AMOCoverageBreakdownAssistance state="Created">
+                  <BreakdownAssistancePerson state="Created">
+                     <addressLine1>Tyuu 226</addressLine1>
+                     <addressLine2>Address Line 2 and </addressLine2>
+                     <addressLine3>Address Line 3</addressLine3>
+                     <birthDate>1972-03-31T00:00:00</birthDate>
+                     <city>tyuio</city>
+                     <comboDisplayValue>Other</comboDisplayValue>
+                     <countryCd>NZ</countryCd>
+                     <firstName>Leo1</firstName>
+                     <genderCd>male</genderCd>
+                     <lastName>Lauva</lastName>
+                     <personCardRequestInd>true</personCardRequestInd>
+                     <phoneNumber>133-459-6789</phoneNumber>
+                     <postalCode>8407</postalCode>
+                     <referenceNo>1234567890</referenceNo>
+                     <suburb>Addington</suburb>
+                  </BreakdownAssistancePerson>
+                  
+                  <BreakdownAssistancePerson state="Created">
+                     <addressLine1>Tyuu 226</addressLine1>
+                     <addressLine2>Address Line 2 and </addressLine2>
+                     <addressLine3>Address Line 3</addressLine3>
+                     <birthDate>1978-08-11T00:00:00</birthDate>
+                     <city>tyuio</city>
+                     <comboDisplayValue>Other</comboDisplayValue>
+                     <countryCd>NZ</countryCd>
+                     <firstName>Makar</firstName>
+                     <genderCd>male</genderCd>
+                     <lastName>Sandusskiy</lastName>
+                     <personCardRequestInd>true</personCardRequestInd>
+                     <phoneNumber>1234567890</phoneNumber>
+                     <postalCode>8407</postalCode>
+                     <referenceNo>1234567890</referenceNo>
+                     <suburb>Addington</suburb>
+                  </BreakdownAssistancePerson>
+                  
+                  <breakdownServiceProductInd>PREMIER</breakdownServiceProductInd>
+                  <extraServiceCostsInd>true</extraServiceCostsInd>
+                  <previousProviderCd>SRR</previousProviderCd>
+                  <referenceNo>8407-1234567890-24</referenceNo>
+                  <towedVehicleInd>true</towedVehicleInd>
+                  <unlimitedCallOutsInd>true</unlimitedCallOutsInd>
+                  <usageCount>0</usageCount>
+                  <vehicleColour>BLUED</vehicleColour>
+               </AMOCoverageBreakdownAssistance>
+               
+               
+               <ExcludeUnnamedDrivers state="Created">
+                  <excludeAllUnnamedInd>false</excludeAllUnnamedInd>
+               </ExcludeUnnamedDrivers>
+               
+               <AMOVehicleQuestionnaire state="Created">
+                  <vintageClassicInd>false</vintageClassicInd>
+               </AMOVehicleQuestionnaire>
+               
+               <DeletionOfCoverWhileInUse state="Created">
+                  <description>komentars</description>
+               </DeletionOfCoverWhileInUse>
+               
+               <MedicalDisorder state="Created">
+                  <medicalCondition>50</medicalCondition>
+                  <name>Janis Banis</name>
+               </MedicalDisorder>
+               
+               <AMOCoverageRental state="Created">
+                  <rentalOptionInd>FALSE</rentalOptionInd>
+               </AMOCoverageRental>
+               
+               <AMOCoverageOptionalExcess state="Created">
+                  <deductibleAmount>1000</deductibleAmount>
+               </AMOCoverageOptionalExcess>
+               
+               <TemporaryUseOfVehicle state="Created">
+                  <birthDate>1984-05-03T00:00:00</birthDate>
+                  <deductibleAmount>200</deductibleAmount>
+                  <endDate>2012-07-17T00:00:00</endDate>
+                  <name>Janis Banis</name>
+                  <startDate>2012-07-10T00:00:00</startDate>
+               </TemporaryUseOfVehicle>
+               
+               <AMOGaragingAddress state="Created">
+                  <addressLine1>Lielvardes iela 10</addressLine1>
+                  <addressLine2>Upes iela</addressLine2>
+                  <addressLine3>un vel kaut kas</addressLine3>
+                  <city>Ogre</city>
+                  <garagingCd>OTH</garagingCd>
+                  <matchTypeCd>MIG</matchTypeCd>
+                  <postalCode>123456</postalCode>
+                  <suburb>HAMLEY</suburb>
+                  <validated>false</validated>
+               </AMOGaragingAddress>
+               
+               <AMOGaraging state="Created">
+                  <garagingCd>G</garagingCd>
+               </AMOGaraging>
+               
+               <AMOModifications state="Created">
+                  <modificationsCd>OTH</modificationsCd>
+                  <otherModification>Other Modification</otherModification>
+               </AMOModifications>
+               
+               <AMOVehicleRatingInfo state="Created">
+                  <costOfPurchase>{{cost_of_purchase}}</costOfPurchase>
+		            <costEvaluated>23000</costEvaluated>
+                  <presentValueAmt>{{present_value_amt}}</presentValueAmt>
+                  <purchaseDate>2012-10-16T00:00:00</purchaseDate>
+                  <riskPremium>1184.42</riskPremium>
+                  <valuationTypeCd>TotalInsuredValue</valuationTypeCd>
+                  <vehicleClass>PC</vehicleClass>
+                  <vehicleUsageCd>PP</vehicleUsageCd>
+               </AMOVehicleRatingInfo>
+               
+               
+               
+               <AMOCoverageTransportCosts state="Created">
+                  <transportCostsInd>FALSE</transportCostsInd>
+               </AMOCoverageTransportCosts>
+               
+               <TheftOfVehicleExcess state="Created">
+                  <deductibleAmount>500</deductibleAmount>
+               </TheftOfVehicleExcess>
+               
+               <EntryOfASolidObject state="Created">
+                  <description>description</description>
+               </EntryOfASolidObject>
+               
+               <CourtesyCars state="Created">
+                  <liabilityInd>true</liabilityInd>
+                  <manufacturer>Opel</manufacturer>
+                  <model>Cadett</model>
+                  <modelYear>1991</modelYear>
+                  <registrationNo>DF908</registrationNo>
+                  <returnDate>2009-10-06T00:00:00</returnDate>
+               </CourtesyCars>
+               
+               <AdditionalExcessForUnnamedDrivers state="Created">
+                  <deductibleAmount>1000</deductibleAmount>
+               </AdditionalExcessForUnnamedDrivers>
+            </AMOVehicle>
+         </AMOAutoPolicy>
+         
+         <userNote>
+            <category>GENERAL_INFO</category>
+            <confidential>false</confidential>
+            <title>Note 1</title>
+            <userText>1 ImportPolicy with Credit Card account and Maximum count of data elements</userText>
+         </userNote>
+         <userNote>
+            <category>GENERAL_INFO</category>
+            <confidential>false</confidential>
+            <title>Note 2- ImportPolicy-Credit Card account</title>
+            <userText>2 ImportPolicy with Credit Card account and Maximum count of data elements </userText>
+         </userNote>
+         <userNote>
+            <category>GENERAL_INFO</category>
+            <confidential>false</confidential>
+            <title>Note 3</title>
+            <userText>3 ImportPolicy with Credit Card account and Maximum count of data elements </userText>
+         </userNote>
+         <userNote>
+            <category>GENERAL_INFO</category>
+            <confidential>false</confidential>
+            <title>Note 4</title>
+            <userText>4 ImportPolicy with Credit Card account and Maximum count of data elements </userText>
+         </userNote>
+         <userNote>
+            <category>GENERAL_INFO</category>
+            <confidential>false</confidential>
+            <title>Note 5</title>
+            <userText>5 ImportPolicy with Credit Card account and Maximum count of data elements </userText>
+         </userNote>
+         <userTask>
+            <title>Manual Renew</title>
+            <userText>Manual Renew tasks text</userText>
+         </userTask>
+         <userTask>
+            <title>test</title>
+            <userText>AAAAAAAAAAA text</userText>
+         </userTask>
+      </Policy>
